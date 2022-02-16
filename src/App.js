@@ -3,6 +3,7 @@ import './App.css';
 import React, { useState } from 'react'
 import Navbar from './Components/Navbar';
 import News from './Components/News';
+import Login from './Components/Login';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar'
 
@@ -10,7 +11,7 @@ import LoadingBar from 'react-top-loading-bar'
 
 const App =()=> {
   const pageSize = 5;
-  const apiKey = 'Enter your own api key here'
+  const apiKey = 'e66561575ae040dabc724cecb21ac13b'
   
   const [progress, setProgress] = useState(0)
 
@@ -19,7 +20,8 @@ const App =()=> {
     return (
       <div>
         <Router>
-          <Navbar />
+          <Navbar/>
+          <Login/>
           <LoadingBar
         color='#f11946'
         height={3}
@@ -36,6 +38,7 @@ const App =()=> {
             <Route exact path="/general"><News setProgress={setProgress} apiKey={apiKey} key="genral" pageSize={pageSize} country="in" category="general" /></Route>
             <Route exact path="/Home"><News setProgress={setProgress} apiKey={apiKey} key="Home" pageSize={pageSize} country="in" category="general" /></Route>
             <Route exact path="/News24"><News setProgress={setProgress} apiKey={apiKey} key="News24" pageSize={pageSize} country="in" category="general" /></Route>
+            <Route exact path="/Login"></Route>
           </Switch>
         </Router>
       </div>

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-
 const Navbar = () => {
   return (
     <div>
@@ -22,13 +21,11 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-      <button type="button" className="btn btn-primary mx-1">Login</button>
+        <button type="button" className="btn btn-primary mx-1">Login</button>
         <button type="button" className="btn btn-primary mx-1">Signin</button>
       </nav>
     </div>
-
   )
 }
-
-
+  
 export default Navbar
