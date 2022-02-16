@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-handleLogin=()=>{
+const handleLogin=()=>{
   console.log("login")
 }
 const Navbar = () => {
