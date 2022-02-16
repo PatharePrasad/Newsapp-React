@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-
+handleLogin=()=>{
+  console.log("login")
+}
 const Navbar = () => {
   return (
     <div>
@@ -21,7 +23,7 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <button type="button" className="btn btn-primary mx-1">Login</button>
+        <button type="button" onClick={this.handleLogin} className="btn btn-primary mx-1">Login</button>
         <button type="button" className="btn btn-primary mx-1">Signin</button>
       </nav>
     </div>
