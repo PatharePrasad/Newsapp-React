@@ -1,17 +1,13 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
-const handleLogin=()=>{
-  console.log("login")
-}
-=======
-
->>>>>>> 4cc0d3819404dad0d72cc2c767bbdba4f663569d
 const Navbar = () => {
   
   const handleLoginRequest = () => {
     console.log("Login Event Triggered")
 //     ENTER REST OF THE FUNCTIONALITY HERE
+  }
+  const handleSigninRequest = () => {
+    console.log("Signin Event Triggered")
   }
   return (
     <div>
@@ -33,7 +29,7 @@ const Navbar = () => {
           </div>
         </div>
         <button type="button" className="btn btn-primary mx-1" onClick={handleLoginRequest}>Login</button>
-        <button type="button" className="btn btn-primary mx-1">Signin</button>
+        <button type="button" onClick={handleSigninRequest} className="btn btn-primary mx-1">Signin</button>
       </nav>
     </div>
   )
