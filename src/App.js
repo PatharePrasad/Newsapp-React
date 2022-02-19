@@ -3,7 +3,6 @@ import './App.css';
 import React, { useState } from 'react'
 import Navbar from './Components/Navbar';
 import News from './Components/News';
-import Login from './Components/Login';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar'
 
@@ -21,7 +20,6 @@ const App =()=> {
       <div>
         <Router>
           <Navbar/>
-          <Login/>
           <LoadingBar
         color='#f11946'
         height={3}
