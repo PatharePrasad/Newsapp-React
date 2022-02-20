@@ -36,7 +36,7 @@ const App =()=> {
             <Route exact path="/general"><News setProgress={setProgress} apiKey={apiKey} key="genral" pageSize={pageSize} country="in" category="general" /></Route>
             <Route exact path="/Home"><News setProgress={setProgress} apiKey={apiKey} key="Home" pageSize={pageSize} country="in" category="general" /></Route>
             <Route exact path="/News24"><News setProgress={setProgress} apiKey={apiKey} key="News24" pageSize={pageSize} country="in" category="general" /></Route>
-            <Route exact path="/Login"></Route>
+            <Route exact path="/Signin"></Route>
           </Switch>
         </Router>
       </div>

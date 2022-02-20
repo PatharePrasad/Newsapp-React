@@ -29,7 +29,7 @@ const Navbar = () => {
           </div>
         </div>
         <button type="button" className="btn btn-primary mx-1" onClick={handleLoginRequest}>Login</button>
-        <button type="button" onClick={handleSigninRequest} className="btn btn-primary mx-1">Signin</button>
+        <button type="button" onClick={handleSigninRequest}> <Link className="btn btn-primary mx-1" to="/signin">Signin</Link></button>
       </nav>
     </div>
   )
