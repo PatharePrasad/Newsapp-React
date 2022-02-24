@@ -7,21 +7,8 @@ import { Home, Login, News, Register } from './pages'
 
 ReactDOM.render(
     <BrowserRouter>
-<<<<<<< HEAD
-      <Routes>
-        <Route exact path='/' element={ <App /> } />
-        <Route exact path='/Login' element={ <Login /> } />
-        <Route exact path='/Signin' element={ <Signin /> } />
-        {/*<Route exact path='/News24' element={ <News /> } />
-        <Route exact path='/business' element={ <business /> } />*/}
-      </Routes>
-    </BrowserRouter>,
-  document.getElementById('root')
-);
-=======
         <Routes>
             <Route exact path='/' element={ <Home/> } />
->>>>>>> a318038574ae57aa94dc7f7dd2e778fd54c19290
 
             <Route path='/category'>
                 <Route exact path='business' element= { <News category='business'/> } />
