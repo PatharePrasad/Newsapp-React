@@ -1,309 +1,299 @@
-{
+[{
+        "source": {
+            "id": "reuters",
+            "name": "Reuters"
+        },
+        "author": null,
+        "title": "Former U.S. Senate majority leader Harry Reid dies at 82  Reuters",
+        "description": "Harry Reid, the pugnacious son of a Nevada hardrock miner who rose from poverty to become the U.S. Senate majority leader and earned a reputation as a fierce partisan fighter during an era of political gridlock in Washington, died on Tuesday. He was 82.",
+        "url": "https://www.reuters.com/world/us/formerussenatemajorityleaderharryreidhasdied20211229/",
+        "urlToImage": "https://www.reuters.com/resizer/b6_h13rYBdvzme98FjNTmyub6s=/1200x628/smart/filters:quality(80)/cloudfrontuseast2.images.arcpublishing.com/reuters/66DX2G2BFRFVBHSTLD4R3B2E6Y.JPG",
+        "publishedAt": "20211229T09:35:00Z",
+        "content": "WASHINGTON, Dec 28 (Reuters)  Harry Reid, the pugnacious son of a Nevada hardrock miner who rose from poverty to become the U.S. Senate majority leader and earned a reputation as a fierce partisan … [+6588 chars]"
+    },
 
-    "status": "ok",
-    "totalResults": 38,
-    
-    "articles": [
-        
-        {
-            
-            "source": {
-                "id": "reuters",
-                "name": "Reuters"
-            },
-            "author": null,
-            "title": "Former U.S. Senate majority leader Harry Reid dies at 82  Reuters",
-            "description": "Harry Reid, the pugnacious son of a Nevada hardrock miner who rose from poverty to become the U.S. Senate majority leader and earned a reputation as a fierce partisan fighter during an era of political gridlock in Washington, died on Tuesday. He was 82.",
-            "url": "https://www.reuters.com/world/us/formerussenatemajorityleaderharryreidhasdied20211229/",
-            "urlToImage": "https://www.reuters.com/resizer/b6_h13rYBdvzme98FjNTmyub6s=/1200x628/smart/filters:quality(80)/cloudfrontuseast2.images.arcpublishing.com/reuters/66DX2G2BFRFVBHSTLD4R3B2E6Y.JPG",
-            "publishedAt": "20211229T09:35:00Z",
-            "content": "WASHINGTON, Dec 28 (Reuters)  Harry Reid, the pugnacious son of a Nevada hardrock miner who rose from poverty to become the U.S. Senate majority leader and earned a reputation as a fierce partisan … [+6588 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "reuters",
-                "name": "Reuters"
-            },
-            "author": null,
-            "title": "'Just want to go home': China's Xian in COVID lockdown for 7th day  Reuters",
-            "description": "A lockdown of 13 million people in the Chinese city of Xian entered its seventh day on Wednesday, with many unable to leave their residential compounds and relying on deliveries of necessities as new COVID19 infections persisted.",
-            "url": "https://www.reuters.com/world/china/chinareports197newcovid19casesdec28vs209dayearlier20211229/",
-            "urlToImage": "https://www.reuters.com/resizer/uEHBPb5m3Ra86UAvZfXoeXCMu8=/1200x628/smart/filters:quality(80)/cloudfrontuseast2.images.arcpublishing.com/reuters/H45N4JET3NPVNLGZ265ONKVCNA.jpg",
-            "publishedAt": "20211229T09:35:00Z",
-            "content": "BEIJING, Dec 29 (Reuters)  A lockdown of 13 million people in the Chinese city of Xian entered its seventh day on Wednesday, with many unable to leave their residential compounds and relying on deli… [+3656 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "TMZ"
-            },
-            "author": "TMZ Staff",
-            "title": "Tupac Shakur's Poem To GF Up For Sale, Inspiration For 'All Eyez On Me'  TMZ",
-            "description": "Tupac Shakur's poem to an old girlfriend is up for sale and it's believed to be the inspiration behind 'All Eyez On Me.'",
-            "url": "https://www.tmz.com/2021/12/29/tupacshakursimipoemforsalealleyezonmeinspiration/",
-            "urlToImage": "https://imagez.tmz.com/image/14/16by9/2021/12/21/14446fdcf6a0473a92c6a48bae7ba26e_xl.jpg",
-            "publishedAt": "20211229T08:55:00Z",
-            "content": "Tupac Shakurwrote a love poem to one of his old girlfriends back in the day ... it appears to have inspired one of his big hits ... and now it can be yours if the price is right!\r\nThe folks over at M… [+898 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "usatoday",
-                "name": "USA Today"
-            },
-            "author": "John Bacon, Celina Tebor and Christal Hayes, USA TODAY",
-            "title": "CDC cuts isolation time for Americans who test positive from 10 days to 5. Latest COVID19 updates  USA TODAY",
-            "description": "Health officials also reduced the amount of time one should quarantine after coming into contact with someone who tests positive for COVID. Updates.",
-            "url": "https://www.usatoday.com/story/news/health/2021/12/27/omicronairlinescancelflightscovidupdates/9021308002/",
-            "urlToImage": "https://www.gannettcdn.com/presto/2021/12/21/USAT/ca1bf9f931a146b8b677511b21e889a5USATSI_17394883.jpg?auto=webp&crop=1999,1125,x0,y82&format=pjpg&width=1200",
-            "publishedAt": "20211229T08:12:36Z",
-            "content": "The Centers for Disease Control and Prevention has cut the amount of time it recommends people should isolate after testing positive for the coronavirus, reducing the number of days from 10 to five. … [+11615 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "cnn",
-                "name": "CNN"
-            },
-            "author": "Wayne Chang, Nectar Gan, Jadyn Sham and Teele Rebane, CNN Business",
-            "title": "Hong Kong police raid prodemocracy news outlet and arrest six current and former executives  CNN",
-            "description": "Hong Kong's national security police have arrested six people associated with prodemocracy media outlet Stand News — including pop star Denise Ho — and raided its office, raising further concerns about diminishing press freedoms in the city.",
-            "url": "https://www.cnn.com/2021/12/28/media/hongkongmediastandarrestsintlhnk/index.html",
-            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/21122821525201standhkarrests122920221supertease.jpg",
-            "publishedAt": "20211229T07:37:00Z",
-            "content": null
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "New York Post"
-            },
-            "author": "Kenneth Garger",
-            "title": "FDA says rapid COVID tests may be less accurate with Omicron  New York Post ",
-            "description": "Rapid COVID19 antigen tests may be less effective at detecting Omicron than earlier strains on the virus, the Food and Drug Administration said Tuesday.",
-            "url": "https://nypost.com/2021/12/29/fdasaysrapidcovidtestsmaybelessaccuratewithomicron/",
-            "urlToImage": "https://nypost.com/wpcontent/uploads/sites/2/2021/12/36778628.jpg?quality=90&strip=all&w=1024",
-            "publishedAt": "20211229T07:28:43Z",
-            "content": "Rapid COVID19 antigen tests may be less effective at detecting Omicron than earlier strains on the virus, the Food and Drug Administration said Tuesday.\r\nThe development was gleaned from preliminary… [+735 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Daily Mail"
-            },
-            "author": "Harriet Alexander",
-            "title": "'The weak better buckle up': Denver gunman espoused altright masculine supremacy theories  Daily Mail",
-            "description": "Lyndon McLeod, 47, shot and killed five people in Denver on Monday  several of them connected to the tattoo industry. In his selfpublished book he wrote about gunning down people at a tattoo parlor.",
-            "url": "https://www.dailymail.co.uk/news/article10351893/TheweakbetterbuckleDenvergunmanespousedaltrightmasculinesupremacytheories.html",
-            "urlToImage": "https://i.dailymail.co.uk/1s/2021/12/29/07/523227950imagea4_1640762910782.jpg",
-            "publishedAt": "20211229T07:12:23Z",
-            "content": "The Denver gunman who shot and killed five people on Monday night, several of them connected to the tattoo industry, had selfpublished a novel in which a character with his name murders people at ta… [+8921 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "googlenews",
-                "name": "Google News"
-            },
-            "author": null,
-            "title": "N.C. State team ‘sad, mad, angry, confused’ by UCLA Holiday Bowl cancellation  Raleigh News & Observer",
-            "description": null,
-            "url": "https://news.google.com/__i/rss/rd/articles/CBMiTmh0dHBzOi8vd3d3Lm5ld3NvYnNlcnZlci5jb20vc3BvcnRzL2NvbGxlZ2UvYWNjL25jLXN0YXRlL2FydGljbGUyNTY4OTg2MjIuaHRtbNIBAA?oc=5",
-            "urlToImage": null,
-            "publishedAt": "20211229T06:12:40Z",
-            "content": null
-        },
-        
-        {
-            
-            "source": {
-                "id": "cnn",
-                "name": "CNN"
-            },
-            "author": "By <a href=\"/profiles/helenregan\">Helen Regan</a>, Adam Renton, <a href=\"/profiles/aditisandal\">Aditi Sangal</a>, Melissa Macaya, Mike Hayes and <a href=\"/profiles/melissamahtani\" target=\"_blank\">Melissa Mahtani,</a> CNN",
-            "title": "December 28, 2021 coronavirus pandemic and Omicron variant news  CNN",
-            "description": "Millions of people are facing travel disruption during the holidays as the highly transmissible Omicron and Delta coronavirus variants continue to sweep across the world. Follow here for the latest news updates.",
-            "url": "https://www.cnn.com/world/livenews/omicronvariantcoronavirusnews122821/index.html",
-            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/20021317574205coronavirus0213supertease.jpg",
-            "publishedAt": "20211229T03:56:00Z",
-            "content": "A new Covid19 vaccine designed to be cheap and easy to manufacture has won emergency use authorization in India, Texas Childrens Hospital and the Baylor College of Medicine said Tuesday.\r\nDr. Peter … [+2552 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Spaceflight Now"
-            },
-            "author": null,
-            "title": "Highstakes sunshield deployment begins on Webb telescope – Spaceflight Now  Spaceflight Now",
-            "description": null,
-            "url": "https://spaceflightnow.com/2021/12/28/highstakessunshielddeploymentbeginsonwebbtelescope/",
-            "urlToImage": null,
-            "publishedAt": "20211229T03:50:19Z",
-            "content": "Artist’s illustration of the Webb telescope’s sunshield pallet opening. Credit: NASA\r\nMission controllers started the risky process Tuesday to unfurl the James Webb Space Telescope’s sunshield, a fiv… [+16438 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "thehill",
-                "name": "The Hill"
-            },
-            "author": "Olafimihan Oshin",
-            "title": "California synagogue shooter gets second life sentence | TheHill  The Hill",
-            "description": "John T. Earnest has been sentenced to serve a second life term in...",
-            "url": "https://thehill.com/homenews/statewatch/587565californiasynagogueshootergetssecondlifesentence",
-            "urlToImage": "https://thehill.com/sites/default/files/ca_john_earnest.jpg",
-            "publishedAt": "20211229T03:46:19Z",
-            "content": "John T. Earnest has been sentenced to serve a second life term in prison for a fatal California synagogue shooting in 2019, CNN reported. \r\nAccording to a Department of Justice statement, Earnest was… [+1936 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "googlenews",
-                "name": "Google News"
-            },
-            "author": null,
-            "title": "COVID and snow force hundreds more flight cancellations at SeaTac Airport  The Seattle Times",
-            "description": null,
-            "url": "https://news.google.com/__i/rss/rd/articles/CBMicWh0dHBzOi8vd3d3LnNlYXR0bGV0aW1lcy5jb20vYnVzaW5lc3MvY292aWQtYW5kLXNub3ctZm9yY2UtaHVuZHJlZHMtbW9yZS1mbGlnaHQtY2FuY2VsbGF0aW9ucy1hdC1zZWEtdGFjLWFpcnBvcnQv0gEA?oc=5",
-            "urlToImage": null,
-            "publishedAt": "20211229T03:27:00Z",
-            "content": null
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "YouTube"
-            },
-            "author": null,
-            "title": "Bedard joins elite company, Canada routs Austria  TSN",
-            "description": "16yearold Connor Bedard put on a show, scoring four times to tie the singlegame record at the WJC, Mason McTavish added two goals and an assist, and Ellio...",
-            "url": "https://www.youtube.com/watch?v=jW278X_CTnc",
-            "urlToImage": "https://i.ytimg.com/vi/jW278X_CTnc/hqdefault.jpg",
-            "publishedAt": "20211229T03:12:15Z",
-            "content": null
-        },
-        
-        {
-            
-            "source": {
-                "id": "googlenews",
-                "name": "Google News"
-            },
-            "author": null,
-            "title": "Dow Jones Futures: Stock Market Rally Pauses; Tesla, Google, Meta Near Trend Line Buy Points  Investor's Business Daily",
-            "description": null,
-            "url": "https://news.google.com/__i/rss/rd/articles/CBMikwFodHRwczovL3d3dy5pbnZlc3RvcnMuY29tL21hcmtldC10cmVuZC9zdG9jay1tYXJrZXQtdG9kYXkvZG93LWpvbmVzLWZ1dHVyZXMtc3RvY2stbWFya2V0LXJhbGx5LXBhdXNlcy10ZXNsYS1nb29nbGUtbWV0YS1uZWFyLXRyZW5kLWxpbmUtYnV5LXBvaW50cy_SAQA?oc=5",
-            "urlToImage": null,
-            "publishedAt": "20211229T02:55:00Z",
-            "content": null
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "OregonLive"
-            },
-            "author": "Ted Sickinger| The Oregonian/OregonLive",
-            "title": "Coronavirus in Oregon: 1,900 new cases, eight deaths  OregonLive",
-            "description": "The numbers as of Dec. 28, 2021.",
-            "url": "https://www.oregonlive.com/coronavirus/2021/12/coronavirusinoregon1900newcaseseightdeaths.html",
-            "urlToImage": "https://www.oregonlive.com/resizer/6g9z6X0SO1LEN0vb7lTkqXdVj28=/1280x0/smart/cloudfrontuseast1.images.arcpublishing.com/advancelocal/Q7U5ZWY7CNFZ5G5P23SSCLXNXE.jpg",
-            "publishedAt": "20211229T02:23:00Z",
-            "content": "The Oregon Health Authority reported 1,900 new cases of COVID19 across the state, the highest level of new infections seen since Sept. 21, and nearly three times some of the average daily case count… [+6056 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "New York Times"
-            },
-            "author": "Ron DePasquale",
-            "title": "The Latest on the CDC Guidelines, Omicron and U.S. Cases: Live News Updates  The New York Times",
-            "description": "The sevenday average of U.S. cases topped 267,000 on Tuesday, with Washington, D.C., Maryland and Virginia particularly hard hit. The C.D.C. lowered its estimate of Omicron’s prevalence in the U.S.",
-            "url": "https://www.nytimes.com/live/2021/12/28/world/omicroncovidvaccinetests",
-            "urlToImage": "https://static01.nyt.com/images/2021/12/28/world/28virusbriefingpromo/28virusbriefingpromofacebookJumbo.jpg",
-            "publishedAt": "20211229T02:20:00Z",
-            "content": "A drivethru testing site in Baldwin Park, Calif., on Monday. The Omicron variant became dominant in the United States last week, not the week before, according to the Centers for Disease Control and… [+5728 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "foxnews",
-                "name": "Fox News"
-            },
-            "author": "Nate Day",
-            "title": "JeanMarc Vallée, 'Big Little Lies,' 'Dallas Buyers Club' director's cause of death revealed  Fox News",
-            "description": "\"Big Little Lies\" and \"Dallas Buyers Club\" director JeanMarc Vallée died of a heart attack on Christmas Day, his representative confirmed.",
-            "url": "https://www.foxnews.com/entertainment/jeanmarcvalleecauseofdeath",
-            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2021/12/AP21361189668999.jpg",
-            "publishedAt": "20211229T01:24:52Z",
-            "content": "Director JeanMarc Vallée's cause of death has been revealed.\r\nThe filmmaker's rep confirmed to Fox News Digital that he died of a heart attack on Dec. 25. \r\nHis cause and date of death were not prov… [+2368 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Daily Beast"
-            },
-            "author": "Corbin Bolies",
-            "title": "Former NFL Coach and Legend John Madden Dies at 85  The Daily Beast",
-            "description": "Madden gained fame coaching the Oakland Raiders, then became a household name as a broadcaster and pitchman.",
-            "url": "https://www.thedailybeast.com/formernflcoachandlegendjohnmaddendiesat85",
-            "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1887,w_3354,x_0,y_70/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1640737945/20060204T120000Z_27185200_GM1DRWRHQRAA_RTRMADP_3_SPORTNFL_gzjv6r",
-            "publishedAt": "20211229T01:07:30Z",
-            "content": "The NFL said one of its last living legends, John Madden, died Tuesday at 85. Madden excelled as an allstar coach of the Oakland Raiders, with whom he ended his coaching career with a record of 103… [+578 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "NBC New York"
-            },
-            "author": "NBC New York",
-            "title": "NY COVID Hospitalizations Rise 12% in a Day as Omicron Surge Deepens  NBC New York",
-            "description": "More than 6,000 people in New York state are in the hospital with COVID19, up 12% in just one day as positivity rates remain highly elevated.",
-            "url": "https://www.nbcnewyork.com/news/coronavirus/nycovidhospitalizationsrise12inadayasomicronsurgedeepens/3470352/",
-            "urlToImage": "https://media.nbcnewyork.com/2021/02/EmergencyRoomSignER.jpg?quality=85&strip=all&resize=1200%2C675",
-            "publishedAt": "20211229T00:28:26Z",
-            "content": "The number of people in the hospital in New York state with COVID19 rose 12% in one day, the governor's office said, as more than 40,000 people tested positive for the virus.\r\nSome 6,173 people are … [+2115 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Los Angeles Times"
-            },
-            "author": "Luke Money, RongGong Lin II",
-            "title": "California COVID19 hospitalizations up 25% in last week  Los Angeles Times",
-            "description": "The rise has been even steeper in Los Angeles and Orange counties — which saw daily patient counts grow by 43% and 71%, respectively, during the same time.",
-            "url": "https://www.latimes.com/california/story/20211228/covid19hospitalizationsup25incaliforniainlastweek",
-            "urlToImage": "https://catimes.brightspotcdn.com/dims4/default/bb45030/2147483647/strip/true/crop/6720x3528+0+476/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcaliforniatimesbrightspot.s3.amazonaws.com%2Fc6%2F11%2Fca9ab44b4948b463ee374a6aa0af%2Flaphotos1staff893013mecovidcasesincreasing09mjc.jpg",
-            "publishedAt": "20211228T23:45:16Z",
-            "content": "COVID19 hospitalizations are rising rapidly in California, placing fresh strain on healthcare systems worn thin by nearly two years on the frontlines of the pandemic. \r\nThough the number of COVID19… [+7366 chars]"
-        }
-    ]
+    {
 
-}
+        "source": {
+            "id": "reuters",
+            "name": "Reuters"
+        },
+        "author": null,
+        "title": "'Just want to go home': China's Xian in COVID lockdown for 7th day  Reuters",
+        "description": "A lockdown of 13 million people in the Chinese city of Xian entered its seventh day on Wednesday, with many unable to leave their residential compounds and relying on deliveries of necessities as new COVID19 infections persisted.",
+        "url": "https://www.reuters.com/world/china/chinareports197newcovid19casesdec28vs209dayearlier20211229/",
+        "urlToImage": "https://www.reuters.com/resizer/uEHBPb5m3Ra86UAvZfXoeXCMu8=/1200x628/smart/filters:quality(80)/cloudfrontuseast2.images.arcpublishing.com/reuters/H45N4JET3NPVNLGZ265ONKVCNA.jpg",
+        "publishedAt": "20211229T09:35:00Z",
+        "content": "BEIJING, Dec 29 (Reuters)  A lockdown of 13 million people in the Chinese city of Xian entered its seventh day on Wednesday, with many unable to leave their residential compounds and relying on deli… [+3656 chars]"
+    },
+
+    {
+
+        "source": {
+            "id": null,
+            "name": "TMZ"
+        },
+        "author": "TMZ Staff",
+        "title": "Tupac Shakur's Poem To GF Up For Sale, Inspiration For 'All Eyez On Me'  TMZ",
+        "description": "Tupac Shakur's poem to an old girlfriend is up for sale and it's believed to be the inspiration behind 'All Eyez On Me.'",
+        "url": "https://www.tmz.com/2021/12/29/tupacshakursimipoemforsalealleyezonmeinspiration/",
+        "urlToImage": "https://imagez.tmz.com/image/14/16by9/2021/12/21/14446fdcf6a0473a92c6a48bae7ba26e_xl.jpg",
+        "publishedAt": "20211229T08:55:00Z",
+        "content": "Tupac Shakurwrote a love poem to one of his old girlfriends back in the day ... it appears to have inspired one of his big hits ... and now it can be yours if the price is right!\r\nThe folks over at M… [+898 chars]"
+    },
+
+    {
+
+        "source": {
+            "id": "usatoday",
+            "name": "USA Today"
+        },
+        "author": "John Bacon, Celina Tebor and Christal Hayes, USA TODAY",
+        "title": "CDC cuts isolation time for Americans who test positive from 10 days to 5. Latest COVID19 updates  USA TODAY",
+        "description": "Health officials also reduced the amount of time one should quarantine after coming into contact with someone who tests positive for COVID. Updates.",
+        "url": "https://www.usatoday.com/story/news/health/2021/12/27/omicronairlinescancelflightscovidupdates/9021308002/",
+        "urlToImage": "https://www.gannettcdn.com/presto/2021/12/21/USAT/ca1bf9f931a146b8b677511b21e889a5USATSI_17394883.jpg?auto=webp&crop=1999,1125,x0,y82&format=pjpg&width=1200",
+        "publishedAt": "20211229T08:12:36Z",
+        "content": "The Centers for Disease Control and Prevention has cut the amount of time it recommends people should isolate after testing positive for the coronavirus, reducing the number of days from 10 to five. … [+11615 chars]"
+    },
+
+    {
+
+        "source": {
+            "id": "cnn",
+            "name": "CNN"
+        },
+        "author": "Wayne Chang, Nectar Gan, Jadyn Sham and Teele Rebane, CNN Business",
+        "title": "Hong Kong police raid prodemocracy news outlet and arrest six current and former executives  CNN",
+        "description": "Hong Kong's national security police have arrested six people associated with prodemocracy media outlet Stand News — including pop star Denise Ho — and raided its office, raising further concerns about diminishing press freedoms in the city.",
+        "url": "https://www.cnn.com/2021/12/28/media/hongkongmediastandarrestsintlhnk/index.html",
+        "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/21122821525201standhkarrests122920221supertease.jpg",
+        "publishedAt": "20211229T07:37:00Z",
+        "content": null
+    },
+
+    {
+
+        "source": {
+            "id": null,
+            "name": "New York Post"
+        },
+        "author": "Kenneth Garger",
+        "title": "FDA says rapid COVID tests may be less accurate with Omicron  New York Post ",
+        "description": "Rapid COVID19 antigen tests may be less effective at detecting Omicron than earlier strains on the virus, the Food and Drug Administration said Tuesday.",
+        "url": "https://nypost.com/2021/12/29/fdasaysrapidcovidtestsmaybelessaccuratewithomicron/",
+        "urlToImage": "https://nypost.com/wpcontent/uploads/sites/2/2021/12/36778628.jpg?quality=90&strip=all&w=1024",
+        "publishedAt": "20211229T07:28:43Z",
+        "content": "Rapid COVID19 antigen tests may be less effective at detecting Omicron than earlier strains on the virus, the Food and Drug Administration said Tuesday.\r\nThe development was gleaned from preliminary… [+735 chars]"
+    },
+
+    {
+
+        "source": {
+            "id": null,
+            "name": "Daily Mail"
+        },
+        "author": "Harriet Alexander",
+        "title": "'The weak better buckle up': Denver gunman espoused altright masculine supremacy theories  Daily Mail",
+        "description": "Lyndon McLeod, 47, shot and killed five people in Denver on Monday  several of them connected to the tattoo industry. In his selfpublished book he wrote about gunning down people at a tattoo parlor.",
+        "url": "https://www.dailymail.co.uk/news/article10351893/TheweakbetterbuckleDenvergunmanespousedaltrightmasculinesupremacytheories.html",
+        "urlToImage": "https://i.dailymail.co.uk/1s/2021/12/29/07/523227950imagea4_1640762910782.jpg",
+        "publishedAt": "20211229T07:12:23Z",
+        "content": "The Denver gunman who shot and killed five people on Monday night, several of them connected to the tattoo industry, had selfpublished a novel in which a character with his name murders people at ta… [+8921 chars]"
+    },
+
+    {
+
+        "source": {
+            "id": "googlenews",
+            "name": "Google News"
+        },
+        "author": null,
+        "title": "N.C. State team ‘sad, mad, angry, confused’ by UCLA Holiday Bowl cancellation  Raleigh News & Observer",
+        "description": null,
+        "url": "https://news.google.com/__i/rss/rd/articles/CBMiTmh0dHBzOi8vd3d3Lm5ld3NvYnNlcnZlci5jb20vc3BvcnRzL2NvbGxlZ2UvYWNjL25jLXN0YXRlL2FydGljbGUyNTY4OTg2MjIuaHRtbNIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "20211229T06:12:40Z",
+        "content": null
+    },
+
+    {
+
+        "source": {
+            "id": "cnn",
+            "name": "CNN"
+        },
+        "author": "By <a href=\"/profiles/helenregan\">Helen Regan</a>, Adam Renton, <a href=\"/profiles/aditisandal\">Aditi Sangal</a>, Melissa Macaya, Mike Hayes and <a href=\"/profiles/melissamahtani\" target=\"_blank\">Melissa Mahtani,</a> CNN",
+        "title": "December 28, 2021 coronavirus pandemic and Omicron variant news  CNN",
+        "description": "Millions of people are facing travel disruption during the holidays as the highly transmissible Omicron and Delta coronavirus variants continue to sweep across the world. Follow here for the latest news updates.",
+        "url": "https://www.cnn.com/world/livenews/omicronvariantcoronavirusnews122821/index.html",
+        "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/20021317574205coronavirus0213supertease.jpg",
+        "publishedAt": "20211229T03:56:00Z",
+        "content": "A new Covid19 vaccine designed to be cheap and easy to manufacture has won emergency use authorization in India, Texas Childrens Hospital and the Baylor College of Medicine said Tuesday.\r\nDr. Peter … [+2552 chars]"
+    },
+
+    {
+
+        "source": {
+            "id": null,
+            "name": "Spaceflight Now"
+        },
+        "author": null,
+        "title": "Highstakes sunshield deployment begins on Webb telescope – Spaceflight Now  Spaceflight Now",
+        "description": null,
+        "url": "https://spaceflightnow.com/2021/12/28/highstakessunshielddeploymentbeginsonwebbtelescope/",
+        "urlToImage": null,
+        "publishedAt": "20211229T03:50:19Z",
+        "content": "Artist’s illustration of the Webb telescope’s sunshield pallet opening. Credit: NASA\r\nMission controllers started the risky process Tuesday to unfurl the James Webb Space Telescope’s sunshield, a fiv… [+16438 chars]"
+    },
+
+    {
+
+        "source": {
+            "id": "thehill",
+            "name": "The Hill"
+        },
+        "author": "Olafimihan Oshin",
+        "title": "California synagogue shooter gets second life sentence | TheHill  The Hill",
+        "description": "John T. Earnest has been sentenced to serve a second life term in...",
+        "url": "https://thehill.com/homenews/statewatch/587565californiasynagogueshootergetssecondlifesentence",
+        "urlToImage": "https://thehill.com/sites/default/files/ca_john_earnest.jpg",
+        "publishedAt": "20211229T03:46:19Z",
+        "content": "John T. Earnest has been sentenced to serve a second life term in prison for a fatal California synagogue shooting in 2019, CNN reported. \r\nAccording to a Department of Justice statement, Earnest was… [+1936 chars]"
+    },
+
+    {
+
+        "source": {
+            "id": "googlenews",
+            "name": "Google News"
+        },
+        "author": null,
+        "title": "COVID and snow force hundreds more flight cancellations at SeaTac Airport  The Seattle Times",
+        "description": null,
+        "url": "https://news.google.com/__i/rss/rd/articles/CBMicWh0dHBzOi8vd3d3LnNlYXR0bGV0aW1lcy5jb20vYnVzaW5lc3MvY292aWQtYW5kLXNub3ctZm9yY2UtaHVuZHJlZHMtbW9yZS1mbGlnaHQtY2FuY2VsbGF0aW9ucy1hdC1zZWEtdGFjLWFpcnBvcnQv0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "20211229T03:27:00Z",
+        "content": null
+    },
+
+    {
+
+        "source": {
+            "id": null,
+            "name": "YouTube"
+        },
+        "author": null,
+        "title": "Bedard joins elite company, Canada routs Austria  TSN",
+        "description": "16yearold Connor Bedard put on a show, scoring four times to tie the singlegame record at the WJC, Mason McTavish added two goals and an assist, and Ellio...",
+        "url": "https://www.youtube.com/watch?v=jW278X_CTnc",
+        "urlToImage": "https://i.ytimg.com/vi/jW278X_CTnc/hqdefault.jpg",
+        "publishedAt": "20211229T03:12:15Z",
+        "content": null
+    },
+
+    {
+
+        "source": {
+            "id": "googlenews",
+            "name": "Google News"
+        },
+        "author": null,
+        "title": "Dow Jones Futures: Stock Market Rally Pauses; Tesla, Google, Meta Near Trend Line Buy Points  Investor's Business Daily",
+        "description": null,
+        "url": "https://news.google.com/__i/rss/rd/articles/CBMikwFodHRwczovL3d3dy5pbnZlc3RvcnMuY29tL21hcmtldC10cmVuZC9zdG9jay1tYXJrZXQtdG9kYXkvZG93LWpvbmVzLWZ1dHVyZXMtc3RvY2stbWFya2V0LXJhbGx5LXBhdXNlcy10ZXNsYS1nb29nbGUtbWV0YS1uZWFyLXRyZW5kLWxpbmUtYnV5LXBvaW50cy_SAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "20211229T02:55:00Z",
+        "content": null
+    },
+
+    {
+
+        "source": {
+            "id": null,
+            "name": "OregonLive"
+        },
+        "author": "Ted Sickinger| The Oregonian/OregonLive",
+        "title": "Coronavirus in Oregon: 1,900 new cases, eight deaths  OregonLive",
+        "description": "The numbers as of Dec. 28, 2021.",
+        "url": "https://www.oregonlive.com/coronavirus/2021/12/coronavirusinoregon1900newcaseseightdeaths.html",
+        "urlToImage": "https://www.oregonlive.com/resizer/6g9z6X0SO1LEN0vb7lTkqXdVj28=/1280x0/smart/cloudfrontuseast1.images.arcpublishing.com/advancelocal/Q7U5ZWY7CNFZ5G5P23SSCLXNXE.jpg",
+        "publishedAt": "20211229T02:23:00Z",
+        "content": "The Oregon Health Authority reported 1,900 new cases of COVID19 across the state, the highest level of new infections seen since Sept. 21, and nearly three times some of the average daily case count… [+6056 chars]"
+    },
+
+    {
+
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "Ron DePasquale",
+        "title": "The Latest on the CDC Guidelines, Omicron and U.S. Cases: Live News Updates  The New York Times",
+        "description": "The sevenday average of U.S. cases topped 267,000 on Tuesday, with Washington, D.C., Maryland and Virginia particularly hard hit. The C.D.C. lowered its estimate of Omicron’s prevalence in the U.S.",
+        "url": "https://www.nytimes.com/live/2021/12/28/world/omicroncovidvaccinetests",
+        "urlToImage": "https://static01.nyt.com/images/2021/12/28/world/28virusbriefingpromo/28virusbriefingpromofacebookJumbo.jpg",
+        "publishedAt": "20211229T02:20:00Z",
+        "content": "A drivethru testing site in Baldwin Park, Calif., on Monday. The Omicron variant became dominant in the United States last week, not the week before, according to the Centers for Disease Control and… [+5728 chars]"
+    },
+
+    {
+
+        "source": {
+            "id": "foxnews",
+            "name": "Fox News"
+        },
+        "author": "Nate Day",
+        "title": "JeanMarc Vallée, 'Big Little Lies,' 'Dallas Buyers Club' director's cause of death revealed  Fox News",
+        "description": "\"Big Little Lies\" and \"Dallas Buyers Club\" director JeanMarc Vallée died of a heart attack on Christmas Day, his representative confirmed.",
+        "url": "https://www.foxnews.com/entertainment/jeanmarcvalleecauseofdeath",
+        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2021/12/AP21361189668999.jpg",
+        "publishedAt": "20211229T01:24:52Z",
+        "content": "Director JeanMarc Vallée's cause of death has been revealed.\r\nThe filmmaker's rep confirmed to Fox News Digital that he died of a heart attack on Dec. 25. \r\nHis cause and date of death were not prov… [+2368 chars]"
+    },
+
+    {
+
+        "source": {
+            "id": null,
+            "name": "Daily Beast"
+        },
+        "author": "Corbin Bolies",
+        "title": "Former NFL Coach and Legend John Madden Dies at 85  The Daily Beast",
+        "description": "Madden gained fame coaching the Oakland Raiders, then became a household name as a broadcaster and pitchman.",
+        "url": "https://www.thedailybeast.com/formernflcoachandlegendjohnmaddendiesat85",
+        "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1887,w_3354,x_0,y_70/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1640737945/20060204T120000Z_27185200_GM1DRWRHQRAA_RTRMADP_3_SPORTNFL_gzjv6r",
+        "publishedAt": "20211229T01:07:30Z",
+        "content": "The NFL said one of its last living legends, John Madden, died Tuesday at 85. Madden excelled as an allstar coach of the Oakland Raiders, with whom he ended his coaching career with a record of 103… [+578 chars]"
+    },
+
+    {
+
+        "source": {
+            "id": null,
+            "name": "NBC New York"
+        },
+        "author": "NBC New York",
+        "title": "NY COVID Hospitalizations Rise 12% in a Day as Omicron Surge Deepens  NBC New York",
+        "description": "More than 6,000 people in New York state are in the hospital with COVID19, up 12% in just one day as positivity rates remain highly elevated.",
+        "url": "https://www.nbcnewyork.com/news/coronavirus/nycovidhospitalizationsrise12inadayasomicronsurgedeepens/3470352/",
+        "urlToImage": "https://media.nbcnewyork.com/2021/02/EmergencyRoomSignER.jpg?quality=85&strip=all&resize=1200%2C675",
+        "publishedAt": "20211229T00:28:26Z",
+        "content": "The number of people in the hospital in New York state with COVID19 rose 12% in one day, the governor's office said, as more than 40,000 people tested positive for the virus.\r\nSome 6,173 people are … [+2115 chars]"
+    },
+
+    {
+
+        "source": {
+            "id": null,
+            "name": "Los Angeles Times"
+        },
+        "author": "Luke Money, RongGong Lin II",
+        "title": "California COVID19 hospitalizations up 25% in last week  Los Angeles Times",
+        "description": "The rise has been even steeper in Los Angeles and Orange counties — which saw daily patient counts grow by 43% and 71%, respectively, during the same time.",
+        "url": "https://www.latimes.com/california/story/20211228/covid19hospitalizationsup25incaliforniainlastweek",
+        "urlToImage": "https://catimes.brightspotcdn.com/dims4/default/bb45030/2147483647/strip/true/crop/6720x3528+0+476/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcaliforniatimesbrightspot.s3.amazonaws.com%2Fc6%2F11%2Fca9ab44b4948b463ee374a6aa0af%2Flaphotos1staff893013mecovidcasesincreasing09mjc.jpg",
+        "publishedAt": "20211228T23:45:16Z",
+        "content": "COVID19 hospitalizations are rising rapidly in California, placing fresh strain on healthcare systems worn thin by nearly two years on the frontlines of the pandemic. \r\nThough the number of COVID19… [+7366 chars]"
+    }
+]

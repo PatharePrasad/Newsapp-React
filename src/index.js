@@ -1,15 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import Login from './Components/Login';
-import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Signin from './Components/Signin';
-import News from './Components/News';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import ReactDOM from 'react-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+import { Home, Login, News, Register } from './pages'
 
 ReactDOM.render(
     <BrowserRouter>
+<<<<<<< HEAD
       <Routes>
         <Route exact path='/' element={ <App /> } />
         <Route exact path='/Login' element={ <Login /> } />
@@ -20,8 +18,29 @@ ReactDOM.render(
     </BrowserRouter>,
   document.getElementById('root')
 );
+=======
+        <Routes>
+            <Route exact path='/' element={ <Home/> } />
+>>>>>>> a318038574ae57aa94dc7f7dd2e778fd54c19290
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+            <Route path='/category'>
+                <Route exact path='business' element= { <News category='business'/> } />
+                <Route exact path='entertainment' element= { <News category='entertainment'/> } />
+                <Route exact path='health' element= { <News category='health'/> } />
+                <Route exact path='science' element= { <News category='science'/> } />
+                <Route exact path='sports' element= { <News category='sports'/> } />
+                <Route exact path='technology' element= { <News category='technology'/> } />
+            </Route>
+
+            <Route path='/auth'>
+                <Route exact path='login' element={ <Login/> } />
+                <Route exact path='forgetpassword/' element='' />
+                <Route exact path='resetpassword/:resetPasswordToken' element='' />
+
+                <Route exact path='register' element={ <Register/> } />
+                <Route exact path='activateUser/:userActivationToken' element='' />
+            </Route>
+        </Routes>
+    </BrowserRouter>,
+    document.getElementById('root')
+)
