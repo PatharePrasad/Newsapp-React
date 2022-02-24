@@ -26,9 +26,9 @@ const App = () => {
           progress={progress}
         />
 
-        <Routes>
-          <NavLink to='/Components/News'><News setProgress={setProgress} apiKey={apiKey} pageSize={pageSize} country="in" category="general" /></NavLink>
-          <NavLink to='/Copmonents/business'><News setProgress={setProgress} apiKey={apiKey} pageSize={pageSize} country="in" category="business" /></NavLink>
+          <Routes>
+          {/*<NavLink to='/Components/News'><News setProgress={setProgress} apiKey={apiKey} pageSize={pageSize} country="in" category="general" /></NavLink>
+          <NavLink to='/Copmonents/business'><News setProgress={setProgress} apiKey={apiKey} pageSize={pageSize} country="in" category="business" /></NavLink>*/}
           <Link to='/Components/Signin'></Link>
           <Link to='/Components/Login'></Link>
         </Routes>

@@ -14,8 +14,8 @@ ReactDOM.render(
         <Route exact path='/' element={ <App /> } />
         <Route exact path='/Login' element={ <Login /> } />
         <Route exact path='/Signin' element={ <Signin /> } />
-        <Route exact path='/News24' element={ <News /> } />
-        <Route exact path='/business' element={ <business /> } />
+        {/*<Route exact path='/News24' element={ <News /> } />
+        <Route exact path='/business' element={ <business /> } />*/}
       </Routes>
     </BrowserRouter>,
   document.getElementById('root')
