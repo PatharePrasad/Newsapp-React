@@ -1,6 +1,6 @@
 import { Card } from 'react-bootstrap'
 import { Navbar } from '../../components'
-import Data from '../../sampleOutput.json'
+import index from '../../index'
 
 const Home = () => {
     return (
@@ -14,7 +14,7 @@ const Home = () => {
                     display: 'flex',
                     flexWrap: 'wrap',
                     flexDirection:'row'}}>
-            { Data.map((post, key) => {
+            { this.ApiKey.map((post, key) => {
                 return (
                     <Card key={key} style={{ width: '18rem', flexBasis: 'calc(50% - 40px)', margin: '20px' }} className='box'>
                         <Card.Img variant='top' src={post.urlToImage} />
