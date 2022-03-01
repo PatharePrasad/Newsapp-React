@@ -3,25 +3,37 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Home, Login, News, Register } from './pages'
+import { Navbar } from './components';
 import LoadingBar from 'react-top-loading-bar'
 import React, { useState } from 'react'
 
-const index=()=>{
-const ApiKey="e66561575ae040dabc724cecb21ac13b"
+const Index=()=>{
+const pageSize = 5;
+const apiKey="e66561575ae040dabc724cecb21ac13b"
+const [progress, setProgress] = useState(0)
+
+return (
+    <div>
+    <Navbar/> 
+    <LoadingBar
+    height={3}
+    color='#f11946' 
+    progress={progress}
+    />
       
 
 ReactDOM.render(
     <BrowserRouter>
         <Routes>
-            <Route exact path='/' element={ <Home/> } />
+            <Route exact path='/' News setProgress={setProgress} apiKey={apiKey} key="general" pageSize={pageSize} country="in" category="general" element={ <Home/> } />
 
             <Route path='/category'>
-                <Route exact path='business'ApiKey={ApiKey} element= { <News category='business'/> } />
-                <Route exact path='entertainment'ApiKey={ApiKey} element= { <News category='entertainment'/> } />
-                <Route exact path='health'ApiKey={ApiKey} element= { <News category='health'/> } />
-                <Route exact path='science'ApiKey={ApiKey} element= { <News category='science'/> } />
-                <Route exact path='sports'ApiKey={ApiKey} element= { <News category='sports'/> } />
-                <Route exact path='technology'ApiKey={ApiKey} element= { <News category='technology'/> } />
+                <Route exact path='business' News setProgress={setProgress} apiKey={apiKey} key="business" pageSize={pageSize} country="in" element= { <News category='business'/> } />
+                <Route exact path='entertainment' News setProgress={setProgress} apiKey={apiKey} key="entertainment" pageSize={pageSize} country="in" element= { <News category='entertainment'/> } />
+                <Route exact path='health' News setProgress={setProgress} apiKey={apiKey} key="entertainment" pageSize={pageSize} country="in" element= { <News category='health'/> } />
+                <Route exact path='science' News setProgress={setProgress} apiKey={apiKey} key="science" pageSize={pageSize} country="in" element= { <News category='science'/> } />
+                <Route exact path='sports' News setProgress={setProgress} apiKey={apiKey} key="sports" pageSize={pageSize} country="in" element= { <News category='sports'/> } />
+                <Route exact path='technology' News setProgress={setProgress} apiKey={apiKey} key="technology" pageSize={pageSize} country="in" element= { <News category='technology'/> } />
             </Route>
 
             <Route path='/auth'>
@@ -35,8 +47,12 @@ ReactDOM.render(
         </Routes>
     </BrowserRouter>,
     document.getElementById('root')
+    </div>
+
 )
 }
 
-export default index
+
+
+export default Index
 
