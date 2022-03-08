@@ -1,6 +1,6 @@
 import { Card } from 'react-bootstrap'
 import { Navbar } from '../../components'
-import Index from '../../Index'
+// import  from '../../index'
 
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
                     display: 'flex',
                     flexWrap: 'wrap',
                     flexDirection:'row'}}>
-            { articles.map((post, key) => {
+            {/* { index.map((post, key) => {
                 return (
                     <Card key={key} style={{ width: '18rem', flexBasis: 'calc(50% - 40px)', margin: '20px' }} className='box'>
                         <Card.Img variant='top' src={post.urlToImage} />
@@ -26,7 +26,7 @@ const Home = () => {
                         </Card.Body>
                     </Card>
                 )
-            })}
+            })} */}
         </div>
 
     </>

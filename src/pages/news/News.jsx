@@ -40,6 +40,18 @@ const News = (props) => {
         setArticles(articles.concat(parsedData.articles))
         setTotalResults(parsedData.totalResults)
       };
+
+      News.defaultProps = {
+        country: 'in',
+        pageSize: 5,
+        category: 'general',
+    }
+    
+    News.propTypes = {
+        country: PropTypes.string,
+        pageSize: PropTypes.number,
+        category: PropTypes.string,
+    }
         
 
       return (
@@ -52,9 +64,6 @@ const News = (props) => {
             </h1>
             {loading && <Spinner />}
             <InfiniteScroll
-                dataLength={this.state.articles.length}
-                next={this.fetchMoreData}
-                hasMore={this.state.articles.length !== this.state.totalResults}
                 dataLength={articles.length}
                 next={fetchMoreData}
                 hasMore={articles.length !== totalResults}
@@ -72,17 +81,6 @@ const News = (props) => {
             </InfiniteScroll>
         </>
     )
-    News.defaultProps = {
-        country: 'in',
-        pageSize: 5,
-        category: 'general',
-    }
-    
-    News.propTypes = {
-        country: PropTypes.string,
-        pageSize: PropTypes.number,
-        category: PropTypes.string,
-    }
 }
 
 export default News
