@@ -9,32 +9,20 @@ const Navbar = () => {
 
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <div className="navbar-nav">
-                        <li className="nav-item">
-                            <Link to='/' className="nav-link" aria-current="page">Home</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to='/category/business' className="nav-link">Business</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to='/category/entertainment' className="nav-link">Entertainment</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to='/category/health' className="nav-link">Health</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to='/category/science' className="nav-link">Science</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to='/category/sports' className="nav-link">Sports</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to='/category/technology' className="nav-link">Technology</Link>
-                        </li>
-                    </div>
-                </div>
+                    <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/home">Home</Link>
+              </li>
+              <li className="nav-item"><Link className="nav-link" to="/business">Business</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/entertainment">Entertainment</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/health">Health</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
             </div>
+          </div>
+        </div>
 
-            <Link to='/auth/login' className="btn btn-primary mx-1">Login</Link>
+            <Link className="btn btn-primary mx-1" to="/auth/login">Login</Link>
             <Link to='/auth/register' className="btn btn-primary mx-1">Register</Link>
         </nav>
     </>
