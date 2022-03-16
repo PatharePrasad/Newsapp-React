@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { Login, News, Register } from './pages'
-import { Navbar } from './components';
 import LoadingBar from 'react-top-loading-bar'
 import React, { useState } from 'react'
 
@@ -13,7 +12,6 @@ const App = () => {
     return (
         <div>
             <Router>
-                <Navbar />
                 <LoadingBar height={3} color='#f11946' progress={progress} />
 
                 <Switch>
