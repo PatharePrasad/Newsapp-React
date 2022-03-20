@@ -7,6 +7,10 @@ import { ReactComponent as ShowPasswordSVG } from "../../../assets/show_password
 
 const Register = () => {
     const [showPassword, setShowPassword] = useState(false)
+    const [showConfPassword, setShowConfPassword] = useState(false)
+
+    const handlePasswordToggle = () => setShowPassword(!showPassword)
+    const handleConfPasswordToggle = () => setShowConfPassword(!showConfPassword)
 
     return (
         <section className="vh-100">
@@ -48,22 +52,22 @@ const Register = () => {
                                         placeholder="Password" />
                                     <label htmlFor="signUpPassword" className="form-label">Password</label>   
                                 </div>
-                                <span className="input-group-text" style={{ cursor: "pointer" }}>
+                                <span className="input-group-text" style={{ cursor: "pointer" }} onClick={ handlePasswordToggle }>
                                     {showPassword ? <HidePasswordSVG/> : <ShowPasswordSVG/>}
                                 </span>
                             </div>
                             <div className="input-group flex-nowrap mb-4">
                                 <div className="form-floating w-100">
                                     <input 
-                                        type={showPassword ? "text" : "password"} 
+                                        type={showConfPassword ? "text" : "password"} 
                                         name="signUpConfPassword" 
                                         id="signUpConfPassword" 
                                         className='form-control form-control-lg'
                                         placeholder="Confirm Password" />
                                     <label htmlFor="signUpConfPassword" className="form-label">Confirm Password</label>   
                                 </div>
-                                <span className="input-group-text" style={{ cursor: "pointer" }}>
-                                    {showPassword ? <HidePasswordSVG/> : <ShowPasswordSVG/>}
+                                <span className="input-group-text" style={{ cursor: "pointer" }} onClick={ handleConfPasswordToggle }>
+                                    {showConfPassword ? <HidePasswordSVG/> : <ShowPasswordSVG/>}
                                 </span>
                             </div>
                             <button type="submit" class="btn btn-primary btn-lg btn-block w-100">Sign Up</button>

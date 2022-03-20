@@ -7,6 +7,9 @@ import { ReactComponent as ShowPasswordSVG } from "../../../assets/show_password
 
 const Login = () => {
     const [showPassword, setShowPassword] = useState(false)
+
+    const handlePasswordToggle = () => setShowPassword(!showPassword)
+
     return (
         <section className="vh-100">
             <div className="container py-5 h-100">
@@ -38,7 +41,7 @@ const Login = () => {
                                         placeholder="Password" />
                                     <label htmlFor="loginPassword" className="form-label">Password</label>   
                                 </div>
-                                <span className="input-group-text" style={{ cursor: "pointer" }}>
+                                <span className="input-group-text" style={{ cursor: "pointer" }} onClick={ handlePasswordToggle }>
                                     {showPassword ? <HidePasswordSVG/> : <ShowPasswordSVG/>}
                                 </span>
                             </div>
