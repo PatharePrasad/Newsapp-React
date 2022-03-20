@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom"
+import { useState } from "react"
 import { ReactComponent as LoginImg } from "../../../assets/draw2.svg"
+import { ReactComponent as HidePasswordSVG } from "../../../assets/hide_password.svg"
+import { ReactComponent as ShowPasswordSVG } from "../../../assets/show_password.svg"
+
 
 const Login = () => {
+    const [showPassword, setShowPassword] = useState(false)
     return (
         <section className="vh-100">
             <div className="container py-5 h-100">
@@ -23,19 +28,24 @@ const Login = () => {
                                     placeholder="Email Address" />
                                     <label htmlFor="loginEmail" className="form-label">Email Address</label>
                             </div>
-                            <div className="form-floating mb-4">
-                                <input 
-                                    type="password" 
-                                    name="loginPassword" 
-                                    id="loginPassword" 
-                                    className='form-control form-control-lg'
-                                    placeholder="Password" />
-                                    <label htmlFor="loginEmail" className="form-label">Password</label>
+                            <div className="input-group flex-nowrap mb-4">
+                                <div className="form-floating w-100">
+                                    <input 
+                                        type={showPassword ? "text" : "password"} 
+                                        name="loginPassword" 
+                                        id="loginPassword" 
+                                        className='form-control form-control-lg'
+                                        placeholder="Password" />
+                                    <label htmlFor="loginPassword" className="form-label">Password</label>   
+                                </div>
+                                <span className="input-group-text" style={{ cursor: "pointer" }}>
+                                    {showPassword ? <HidePasswordSVG/> : <ShowPasswordSVG/>}
+                                </span>
                             </div>
                             <div className="d-flex justify-content-end align-items-center mb-4">
                                 <Link to="/auth/forgotPassword" className="text-decoration-none">Forgot Password?</Link>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-lg btn-block w-100">Sign in</button>
+                            <button type="submit" className="btn btn-primary btn-lg btn-block w-100">Sign in</button>
                             <div className="d-flex justify-content-center align-items-center mt-3">
                                 <p>New User?
                                     <Link to="/auth/register" className="ms-2 text-decoration-none">Create an Account</Link>
