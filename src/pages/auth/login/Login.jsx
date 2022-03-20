@@ -9,7 +9,7 @@ const Login = () => {
                     <div className="col-md-8 col-lg-7 col-xl-6">
                         <LoginImg className="img-fluid"/>
                     </div>
-                    <div className="col-md-7 col-lg 5 col-xl-5 offset-xl-1">
+                    <div className="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
                         <div className="d-flex">
                             <Link to='/' className='text-decoration-none text-reset mb-4 fs-2 mx-auto fw-bold'>News24</Link>
                         </div>
