@@ -6,6 +6,10 @@ import { ReactComponent as HidePasswordSVG } from "../../../assets/hide_password
 import { ReactComponent as ShowPasswordSVG } from "../../../assets/show_password.svg"
 
 const Register = () => {
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+    const [confPassword, setConfPassword] = useState('')
     const [showPassword, setShowPassword] = useState(false)
     const [showConfPassword, setShowConfPassword] = useState(false)
 
@@ -30,7 +34,10 @@ const Register = () => {
                                     name="signUpName"
                                     id="signUpName"
                                     className="form-control form-control-lg"
-                                    placeholder="Name"/>
+                                    placeholder="Name"
+                                    value={name}
+                                    onChange={(e) => setName(e.target.value)}
+                                    required/>
                                 <label htmlFor="signUpName" className="form-label">Name</label>
                             </div>
                             <div className="form-floating mb-4">
@@ -39,7 +46,10 @@ const Register = () => {
                                     name="signUpEmail"
                                     id="signUpEmail"
                                     className="form-control form-control-lg"
-                                    placeholder="Email"/>
+                                    placeholder="Email"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                    required/>
                                 <label htmlFor="signUpName" className="form-label">Email</label>
                             </div>
                             <div className="input-group flex-nowrap mb-4">
@@ -49,7 +59,10 @@ const Register = () => {
                                         name="signUpPassword" 
                                         id="signUpPassword" 
                                         className='form-control form-control-lg'
-                                        placeholder="Password" />
+                                        placeholder="Password"
+                                        value={password}
+                                        onChange={(e) => setPassword(e.target.value)}
+                                        required/>
                                     <label htmlFor="signUpPassword" className="form-label">Password</label>   
                                 </div>
                                 <span className="input-group-text" style={{ cursor: "pointer" }} onClick={ handlePasswordToggle }>
@@ -63,7 +76,9 @@ const Register = () => {
                                         name="signUpConfPassword" 
                                         id="signUpConfPassword" 
                                         className='form-control form-control-lg'
-                                        placeholder="Confirm Password" />
+                                        placeholder="Confirm Password"
+                                        value={confPassword}
+                                        onChange={(e) => setConfPassword(e.target.value)}/>
                                     <label htmlFor="signUpConfPassword" className="form-label">Confirm Password</label>   
                                 </div>
                                 <span className="input-group-text" style={{ cursor: "pointer" }} onClick={ handleConfPasswordToggle }>

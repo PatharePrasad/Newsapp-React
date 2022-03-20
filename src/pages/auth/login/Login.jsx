@@ -7,6 +7,8 @@ import { ReactComponent as ShowPasswordSVG } from "../../../assets/show_password
 
 const Login = () => {
     const [showPassword, setShowPassword] = useState(false)
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
 
     const handlePasswordToggle = () => setShowPassword(!showPassword)
 
@@ -28,7 +30,10 @@ const Login = () => {
                                     name="loginEmail" 
                                     id="loginEmail" 
                                     className='form-control form-control-lg'
-                                    placeholder="Email Address" />
+                                    placeholder="Email Address"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                    required />
                                     <label htmlFor="loginEmail" className="form-label">Email Address</label>
                             </div>
                             <div className="input-group flex-nowrap mb-4">
@@ -38,7 +43,10 @@ const Login = () => {
                                         name="loginPassword" 
                                         id="loginPassword" 
                                         className='form-control form-control-lg'
-                                        placeholder="Password" />
+                                        placeholder="Password"
+                                        value={password}
+                                        onChange={(e) => setPassword(e.target.value)}
+                                        required />
                                     <label htmlFor="loginPassword" className="form-label">Password</label>   
                                 </div>
                                 <span className="input-group-text" style={{ cursor: "pointer" }} onClick={ handlePasswordToggle }>
