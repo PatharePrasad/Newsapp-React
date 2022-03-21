@@ -23,17 +23,9 @@ const App = () => {
                     <Route exact path="/science"><News setProgress={setProgress} apiKey={apiKey} key="science" pageSize={pageSize} country="in" category="science" /></Route>
                     <Route exact path="/sports"><News setProgress={setProgress} apiKey={apiKey} key="sports" pageSize={pageSize} country="in" category="sports" /></Route>
                     <Route exact path="/technology"><News setProgress={setProgress} apiKey={apiKey} key="technology" pageSize={pageSize} country="in" category="technology" /></Route>
-<<<<<<< HEAD
-                    <Route path="/auth">
-                    <Route exact path="/ogin" render={()=><Login/>}></Route>
-                {/*<Route exact path="/login"></Route>*/}
-                <Route exact path="/register"></Route>
-                </Route>
-=======
                     {/* AUTHENTICATION ROUTES  */}
                     <Route exact path="/auth/login"><Login /></Route>
                     <Route exact path="/auth/register"><Register /></Route>
->>>>>>> 7f0ec872d76beef69e897137ca8bc8c22b8521de
                 </Switch>
             </Router>
         </div>
