@@ -85,7 +85,7 @@ const Register = () => {
                                     {showConfPassword ? <HidePasswordSVG/> : <ShowPasswordSVG/>}
                                 </span>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-lg btn-block w-100">Sign Up</button>
+                            <button type="submit" className="btn btn-primary btn-lg btn-block w-100">Sign Up</button>
                             <div className="d-flex justify-content-center align-items-center mt-3">
                                 <p>Already a User?
                                     <Link to="/auth/login" className="ms-2 text-decoration-none">Login</Link>
