@@ -3,7 +3,11 @@
     "version": "0.1.0",
     "description": "News Web Application built on MERN Stack",
     "main": "server.js",
-    "scripts": {},
+    "scripts": {
+        "start": "node server.js",
+        "serve": "nodemon server.js",
+        "dev": "concurrently \"npm run serve\" \"cd client && npm start\""
+    },
     "dependencies": {
         "dotenv": "^16.0.0",
         "express": "^4.17.3",
