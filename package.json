@@ -1,0 +1,31 @@
+{
+    "name": "newsapp",
+    "version": "0.1.0",
+    "description": "News Web Application built on MERN Stack",
+    "main": "server.js",
+    "scripts": {},
+    "dependencies": {
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "mongoose": "^6.2.8"
+    },
+    "devDependencies": {
+        "concurrently": "^7.0.0",
+        "nodemon": "^2.0.15"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/prasad373/Newsapp-React.git"
+    },
+    "keywords": [
+        "MERN",
+        "News",
+        "Project"
+    ],
+    "author": "Prasad",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/prasad373/Newsapp-React/issues"
+    },
+    "homepage": "https://github.com/prasad373/Newsapp-React#readme"
+}
