@@ -1,6 +1,7 @@
 require('dotenv').config({ path: './config.env' })
 
 const express = require('express')
+const User = require('./client/src/pages/auth/login/User')
 const connectDB = require('./config/db')
 
 connectDB()
