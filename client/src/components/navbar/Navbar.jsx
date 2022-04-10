@@ -10,16 +10,16 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <div className="navbar-nav">
                     <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/home">Home</Link>
-              </li>
-              <li className="nav-item"><Link className="nav-link" to="/business">Business</Link></li>
-              <li className="nav-item"><Link className="nav-link" to="/entertainment">Entertainment</Link></li>
-              <li className="nav-item"><Link className="nav-link" to="/health">Health</Link></li>
-              <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
-              <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
-              <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
+                        <Link className="nav-link" aria-current="page" to="/home">Home</Link>
+                    </li>
+                    <li className="nav-item"><Link className="nav-link" to="/business">Business</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/entertainment">Entertainment</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/health">Health</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
+                </div>
             </div>
-          </div>
         </div>
 
             <Link to='/auth/login' className="btn btn-primary mx-1">Login</Link>
