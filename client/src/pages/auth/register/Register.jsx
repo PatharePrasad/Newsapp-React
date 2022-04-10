@@ -1,20 +1,58 @@
-import { Link } from "react-router-dom"
+import { Link, useHistory } from "react-router-dom"
 import { useState } from "react"
+import axios from "axios"
 
 import { ReactComponent as SignUpImg } from "../../../assets/signup.svg"
 import { ReactComponent as HidePasswordSVG } from "../../../assets/hide_password.svg"
 import { ReactComponent as ShowPasswordSVG } from "../../../assets/show_password.svg"
 
 const Register = () => {
+    const history = useHistory()
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [confPassword, setConfPassword] = useState('')
+    const [error, setError] = useState('')
     const [showPassword, setShowPassword] = useState(false)
     const [showConfPassword, setShowConfPassword] = useState(false)
 
     const handlePasswordToggle = () => setShowPassword(!showPassword)
     const handleConfPasswordToggle = () => setShowConfPassword(!showConfPassword)
+
+    const registerHandler = async(e) => {
+        e.preventDefault()
+
+        const config = {
+            header: {
+                "Content-Type": "application/json"
+            }
+        }
+
+        if (password !== confPassword) {
+            setPassword("")
+            setConfPassword("")
+            setTimeout(() => {
+                setError('')
+            }, 5000)
+            return setError("Passwords don't match!")
+        }
+
+        try {
+            const { data } = await axios.post("/register", {name, email, password}, config)
+            if (data.success === true) {
+                alert("Registration Successful!")
+                history.push({
+                    pathname: "/auth/login"
+                })
+            }
+            
+        } catch (error) {
+            setError(error.message)
+            setTimeout(() => {
+                setError("")
+            }, 5000)
+        }
+    }
 
     return (
         <section className="vh-100">
@@ -27,7 +65,10 @@ const Register = () => {
                         <div className="d-flex">
                             <Link to='/' className='text-decoration-none text-reset mb-4 fs-2 mx-auto fw-bold'>News24</Link>
                         </div>
-                        <form>
+                        <div className="d-flex">
+                            { error && <span className="mb-4 mx-auto fw-bold" style={{ color: "red"}}>{ error }</span>}
+                        </div>
+                        <form onSubmit={registerHandler}>
                             <div className="form-floating mb-4">
                                 <input
                                     type="text"
@@ -85,7 +126,8 @@ const Register = () => {
                                     {showConfPassword ? <HidePasswordSVG/> : <ShowPasswordSVG/>}
                                 </span>
                             </div>
-                            <button type="submit" className="btn btn-primary btn-lg btn-block w-100">Sign Up</button>
+                            <button 
+                                type="submit" className="btn btn-primary btn-lg btn-block w-100">Sign Up</button>
                             <div className="d-flex justify-content-center align-items-center mt-3">
                                 <p>Already a User?
                                     <Link to="/auth/login" className="ms-2 text-decoration-none">Login</Link>
