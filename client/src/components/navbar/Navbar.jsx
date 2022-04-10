@@ -1,6 +1,23 @@
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
+    const [loggedIn, setLoggedIn] = useState(false)
+
+    const handleLogout = () => {
+        if (window.confirm("Are you sure you want to Logout") === true) {
+            localStorage.removeItem("authToken")
+            setLoggedIn(false)
+        }
+        
+    }
+
+    useEffect(() => {
+        if(localStorage.getItem('authToken')) {
+            setLoggedIn(true)
+        }
+    }, [])
+    
     return (
     <>
         <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
@@ -21,9 +38,13 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
-
-            <Link to='/auth/login' className="btn btn-primary mx-1">Login</Link>
-            <Link to='/auth/register' className="btn btn-primary mx-1">Register</Link>
+            { loggedIn && <button onClick={ handleLogout } className="btn btn-primary mx-1">Logout</button> }
+            { !loggedIn &&
+                <>
+                    <Link to='/auth/login' className="btn btn-primary mx-1">Login</Link>
+                    <Link to='/auth/register' className="btn btn-primary mx-1">Register</Link>
+                </>
+            }
         </nav>
     </>
     )
