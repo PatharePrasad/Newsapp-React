@@ -2,7 +2,7 @@
   "name": "newsapp",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://127.0.0.1:5500",
+  "proxy": "http://localhost:5000/auth",
   "dependencies": {
     "axios": "^0.26.1",
     "bootstrap": "^5.1.3",
