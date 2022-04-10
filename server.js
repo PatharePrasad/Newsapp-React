@@ -38,6 +38,8 @@ app.use((req, res, next) => {
     next()
 })
 
+app.use('/auth', require('./routes/auth'))
+
 const server = app.listen(PORT, () => logging.info(NAMESPACE, `Server is running @${PORT}`))
 
 process.on('unhandledRejection', (err) => {
