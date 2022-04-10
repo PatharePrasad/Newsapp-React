@@ -1,16 +1,47 @@
-import { Link } from "react-router-dom"
+import { Link, useHistory } from "react-router-dom"
 import { useState } from "react"
+import axios from "axios"
+
 import { ReactComponent as LoginImg } from "../../../assets/draw2.svg"
 import { ReactComponent as HidePasswordSVG } from "../../../assets/hide_password.svg"
 import { ReactComponent as ShowPasswordSVG } from "../../../assets/show_password.svg"
 
 
 const Login = () => {
+    const history = useHistory()
     const [showPassword, setShowPassword] = useState(false)
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+    const [error, setError] = useState('')
 
     const handlePasswordToggle = () => setShowPassword(!showPassword)
+
+    const loginHandler = async(e) => {
+        e.preventDefault()
+
+        const config = {
+            header: {
+                "Content-Type": "application/json"
+            }
+        }
+
+        try {
+            const { data } = await axios.post("/login", {email, password}, config)
+            if (data.success === true) {
+                alert("Login Successful!")
+                localStorage.setItem("authToken", data.token)
+                history.push({
+                    pathname: "/"
+                })
+            }
+            
+        } catch (error) {
+            setError(error.message)
+            setTimeout(() => {
+                setError("")
+            }, 5000)
+        }
+    }
 
     return (
         <section className="vh-100">
@@ -23,7 +54,10 @@ const Login = () => {
                         <div className="d-flex">
                             <Link to='/' className='text-decoration-none text-reset mb-4 fs-2 mx-auto fw-bold'>News24</Link>
                         </div>
-                        <form>
+                        <div className="d-flex">
+                            { error && <span className="mb-4 mx-auto fw-bold" style={{ color: "red"}}>{ error }</span>}
+                        </div>
+                        <form onClick={loginHandler}>
                             <div className="form-floating mb-4">
                                 <input 
                                     type="email" 
